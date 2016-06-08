@@ -1,0 +1,49 @@
+.sprite {
+    background-image: url(img/arrows-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.sprite-arrow-left {
+    width: 139px;
+    height: 207px;
+    background-position: -5px -5px;
+}
+.sprite-arrow-right {
+    width: 115px;
+    height: 196px;
+    background-position: -154px -5px;
+}
+.pointer{
+    cursor: pointer;
+}
+.menu__item{
+    display: inline-block;
+    color: #1d7a1d;
+    cursor: pointer;
+}
+.menu__item:hover{
+    color: #32cd32;
+}
+.block--element{
+    display: inline-block;
+}
+.block--delete{
+    color: #2CA4F0;
+    border-bottom: 1px dashed #2CA4F0;
+    cursor: pointer;
+}
+.block--block{
+    display: block;
+}
+.block--none{
+    display: none;
+}
+.slider-container-item{
+    display: inline-block;
+}
+.images-container{
+    max-width: 500px;
+}
+.images-container img{
+    width: 100%;
+}

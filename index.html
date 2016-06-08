@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frontend</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src='app.js'></script>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <p class="menu__item js__menu-item">First screen - input&nbsp;|</p>
+            <p class="menu__item js__menu-item">Second screen - objects&nbsp;|</p>
+            <p class="menu__item js__menu-item">Third screen - slider</p>
+        </nav>
+    </header>
+    <section id="content">
+        <div class="tab__item js__tab-item block--block">
+            <p><textarea class="js__tab--text"></textarea></p>
+            <p><button class="js__tab--add">Добавить</button></p>
+        </div>
+        <div class="tab__item js__tab-item block--none"></div>
+        <div class="tab__item js__tab-item block--none slider-container">
+            <span class="sprite sprite-arrow-left pointer slider-container-item js__arrow-left"></span>
+            <div class="slider-container-item images-container js__images-container">
+            </div>
+            <span class="sprite sprite-arrow-right pointer slider-container-item js__arrow-right"></span>
+        </div>
+    </section>
+</body>
+</html>
